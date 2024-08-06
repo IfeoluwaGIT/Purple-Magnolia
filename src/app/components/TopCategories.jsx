@@ -31,8 +31,11 @@ const TopCategories = () => {
       <Flex justify="space-between" mb={6}>
         <Box textAlign="center" width="30%">
           <Image src="https://images.pexels.com/photos/8922322/pexels-photo-8922322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-    
-          alt="Category 1" mb={4} />
+          alt="Category 1" 
+          mb={4} 
+          border={'2px'} 
+          borderColor={"#3f1c77"}
+          />
           <Heading as="h3" fontSize="lg" mb={2}>
             Category 1
           </Heading>
@@ -42,7 +45,13 @@ const TopCategories = () => {
         </Box>
 
         <Box textAlign="center" width="30%">
-          <Image src="https://images.pexels.com/photos/5088182/pexels-photo-5088182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Category 2" mb={4} />
+          <Image src="https://images.pexels.com/photos/5088182/pexels-photo-5088182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+          alt="Category 2" 
+          mb={4}
+          border={'2px'} 
+          borderColor={"#3f1c77"}
+          
+          />
           <Heading as="h3" fontSize="lg" mb={2}>
             Category 2
           </Heading>
@@ -53,7 +62,9 @@ const TopCategories = () => {
 
         <Box textAlign="center" width="30%">
           <Image src="https://images.pexels.com/photos/8466766/pexels-photo-8466766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-          alt="Category 3" mb={4} />
+          alt="Category 3" mb={4} 
+          border={'2px'} 
+          borderColor={"#3f1c77"}/>
           <Heading as="h3" fontSize="lg" mb={2}>
             Category 3
           </Heading>
@@ -64,7 +75,7 @@ const TopCategories = () => {
       </Flex>
 
       <Flex justify="center">
-        <Button colorScheme="teal" variant="outline">
+        <Button colorScheme="purple" variant="outline" >
           View More
         </Button>
       </Flex>

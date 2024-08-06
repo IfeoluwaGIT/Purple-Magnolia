@@ -1,49 +1,89 @@
-import { Flex, Box, Text, Heading, Button, Image } from "@chakra-ui/react";
+import { Flex, Box, Text, Heading, Image } from "@chakra-ui/react";
 
 const NewRelease = () => {
   return (
-    <div className="">
-      <Heading textAlign={"center"}> NewRelease </Heading>
-      <Flex justify="space-between" gap={6}>
-      <Image src="/book.png" alt="Category 2" mb={4} ml={16} />
-      <Image src="/book.png" alt="Category 2" mb={4}  mr={5}/>
-      <Image src="/book.png" alt="Category 2" mb={4} mr={16} />
-      </Flex>
-      <Flex justify="space-between" mb={6}>
-        <Box textAlign="center" width="30%">
-         
+    <Box border="2px" borderColor="#3f1c77" borderRadius="md" p={6} boxShadow="lg" >
+      <Heading textAlign="center" mb={6}>New Releases</Heading>
+      <Flex justify="space-between" gap={6} mb={4} flexWrap="wrap">
+        {/* First Book */}
+        <Box
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          textAlign="center"
+          
+          p={4}
+          width={{ base: "100%", md: "30%" }}
+          boxShadow="md"
+        >
+          <Image
+            src="/book.png"
+            alt="Dreams by Vision"
+            mb={4}
+            borderRadius="md"
+            border="2px"
+            borderColor="#3f1c77"
+          />
           <Heading as="h3" fontSize="lg" mb={2}>
             Dreams by Vision
           </Heading>
-          <Text>
-            Paula Abak
-          </Text>
+          <Text>Paula Abak</Text>
           <Text>$10</Text>
         </Box>
 
-        <Box textAlign="center" width="30%">
-          
+        {/* Second Book */}
+        <Box
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          textAlign="center"
+        
+          p={4}
+          width={{ base: "100%", md: "30%" }}
+          boxShadow="md"
+        >
+          <Image
+            src="/book.png"
+            alt="Dreams by Vision"
+            mb={4}
+            borderRadius="md"
+            border="2px"
+            borderColor="#3f1c77"
+          />
           <Heading as="h3" fontSize="lg" mb={2}>
-          Dreams by Vision
+            Dreams by Vision
           </Heading>
-          <Text>
-            Paula Ofulue
-          </Text>
+          <Text>Paula Ofulue</Text>
           <Text>$10</Text>
         </Box>
 
-        <Box textAlign="center" width="30%">
-          
+        {/* Third Book */}
+        <Box
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          textAlign="center"
+         
+          p={4}
+          width={{ base: "100%", md: "30%" }}
+          boxShadow="md"
+        >
+          <Image
+            src="/book.png"
+            alt="Dreams by Vision"
+            mb={4}
+            borderRadius="md"
+            border="2px"
+            borderColor="#3f1c77"
+          />
           <Heading as="h3" fontSize="lg" mb={2}>
-          Dreams by Vision
+            Dreams by Vision
           </Heading>
-          <Text>
-            Paula Ofulue
-          </Text>
+          <Text>Paula Ofulue</Text>
           <Text>$10</Text>
         </Box>
       </Flex>
-    </div>
+    </Box>
   );
 };
 

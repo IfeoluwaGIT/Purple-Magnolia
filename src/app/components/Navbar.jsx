@@ -10,10 +10,11 @@ import { MdAccountCircle, MdShoppingCart, MdFavorite } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <Box as="nav"  color={"#3f1c77"} p={4}>
+    <Box as="nav"  color={"#3f1c77"} p={4} >
       <Stack spacing={4}>
         {/* Box 1 */}
-        <HStack bg={"#e0e0e0"} color={"#3f1c77"} justify="space-between" >
+        <HStack bg={"#e0e0e0"} color={"#3f1c77"} justify="space-between" border={'2px'} 
+          borderColor={"#3f1c77"}>
           <HStack >
           <FaPhone />
             <Box >+123456789</Box>

@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Box bg="gray.800" color="white" py={8} >
+    <Box bg="#A8A8A8"  py={8} >
       <Flex ml={10} mr={10} justify="space-around" wrap="wrap" px={4}>
         {/* First Section: Logo, Text, Social Media, Rights Reserved */}
         <Box flexBasis={{ base: "100%", md: "30%" }} textAlign={{ base: "center", md: "left" }} mb={{ base: 4, md: 0 }} >
