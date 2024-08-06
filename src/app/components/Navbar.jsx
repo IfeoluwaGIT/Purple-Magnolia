@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Box 2 */}
         <HStack justify="space-between" p={2} alignItems="center">
           <Image src="https://images.pexels.com/photos/6157226/pexels-photo-6157226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bookstore Logo" boxSize={{ base: "50px", md: "100px" }} />
-          <Input placeholder="Search for books..." w={{ base: "60%", md: "40%" }} />
+          <Input border={'1px'} placeholder="Search for books..." w={{ base: "60%", md: "40%" }} />
           <HStack spacing={4} display={{ base: "none", md: "flex" }}>
             <MdAccountCircle /> <Text>Account</Text>
             <MdShoppingCart /> <Text>Cart</Text>
